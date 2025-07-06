@@ -6,6 +6,7 @@
 
 body {
     background-color: #313131;
+    background-image: url();
 }
 .navbar {
     display: flex;
@@ -20,9 +21,8 @@ body {
 
 .form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-left: 360px;
+    justify-content: center;
     height: 400px;
     width: 440px;
     border: 2px white solid;
@@ -41,7 +41,7 @@ body {
 #fake {
     border: 2px white solid;
     font-size: larger;
-    border-radius: 25%;
+    border-radius: 1rem;
     padding: 5px 5px 5px 5px;
 }
 .button {
@@ -51,6 +51,7 @@ body {
     padding-bottom: 15px;
     border-radius: 2rem;
     padding-right: 1px;
+    background-color: darkred;
 }
 #logo {
     font-size: larger;
@@ -58,4 +59,28 @@ body {
 #about {
     margin-right: 5px;
     display: inline;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email, #password {
+    width: 300px;
+    margin-bottom: 20px;
+    height: 30px;
+    color: white;
+    border-bottom-width: 6px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    background-color: #313131;   
+}
+.EnterForLogin {
+    background-color: crimson;
+    width: 300px;
+    height: 30px;
+}
+#forgetting {
+    margin-top: 50px;
 }
